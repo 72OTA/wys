@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar-nav > li{
+  padding-left:50px;
+  padding-right:50px;
+}
+.navbar{
+  height: 40px;
+}
+.nav-item:hover{
+  background-color: rgb(135, 135, 135);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.nav-item:not( :hover ){
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.separado {
+  /* 16 * 0.0625 = 1px */
+  letter-spacing: 0.0625em;
+}
+.font-bold {
+font-weight: bold;
+}
+.bgimg {
+    height: 450px;
+    background-image: url('/assets/images/web-design.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.texto-dentro{
+  color: #5daee8;
+  font-weight: bold;
+
+}
